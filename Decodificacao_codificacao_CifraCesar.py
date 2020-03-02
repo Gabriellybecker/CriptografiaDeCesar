@@ -14,7 +14,6 @@ def descodificacao():
     
 def decisao(): 
    decisao = input('\nDeseja fazer a criptografia ou a descodificacao? Digite C para criptografia ou D para descodificacao.\n')
-
    if decisao == 'C' or decisao == 'c':
     criptografia()
    elif decisao == 'D' or decisao == 'd':
